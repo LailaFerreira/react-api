@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
 import App from './App';
-import './index.css'
+import 'bootswatch/dist/cerulean/bootstrap.min.css'
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App nome="canibs" idade={24} />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
